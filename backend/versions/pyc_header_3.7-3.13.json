@@ -1,0 +1,16 @@
+{
+    "id": "pyc_header_3.7-3.13",
+    "header_size": 16,
+    "crypto_key_object_offset": 16,
+    "bare_modules_possible": true,
+    "layout": ["magic", "flags", "mtime", "source_size"],
+    "fabricate": {
+        "flags": "00000000",
+        "mtime": "00000000",
+        "source_size": "00000000"
+    },
+    "header_marker": {
+        "offset": 2,
+        "bytes": [13, 10]
+    }
+}

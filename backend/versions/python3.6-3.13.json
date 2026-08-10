@@ -1,0 +1,20 @@
+{
+    "id": "python_3.6-3.13",
+    "magics_profile": "pyc_magics_3.6-3.13",
+    "python": { "min": [3, 6], "max": [3, 13] },
+    "detect": {
+        "cookie_pyver": [36, 37, 38, 39, 306, 307, 308, 309, 310, 311, 312, 313]
+    },
+    "resolve_pyc_profile": [
+        { "when_pyver": [36, 306], "profile": "pyc_header_3.6" },
+        {
+            "when_pyver": [37, 38, 39, 307, 308, 309, 310, 311, 312, 313],
+            "profile": "pyc_header_3.7-3.13"
+        }
+    ],
+    "pyz": {
+        "compression": "zlib",
+        "encryption_try_order": ["ctr", "cfb8", "cfb128"]
+    },
+    "compatible_pyinstaller_bands": ["3.x", "4.0-5.2", "5.3-6.x"]
+}

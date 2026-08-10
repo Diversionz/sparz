@@ -1,0 +1,13 @@
+{
+    "id": "pyc_magics_3.6-3.13",
+    "magics": {
+        "3.6": { "int": 3379, "bytes_hex": "330d0d0a" },
+        "3.7": { "int": 3394, "bytes_hex": "420d0d0a" },
+        "3.8": { "int": 3413, "bytes_hex": "550d0d0a" },
+        "3.9": { "int": 3425, "bytes_hex": "610d0d0a" },
+        "3.10": { "int": 3439, "bytes_hex": "6f0d0d0a" },
+        "3.11": { "int": 3495, "bytes_hex": "a70d0d0a" },
+        "3.12": { "int": 3531, "bytes_hex": "cb0d0d0a" },
+        "3.13": { "int": 3571, "bytes_hex": "f30d0d0a" }
+    }
+}
