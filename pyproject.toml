@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sparz"
+version = "0.0.0"
+description = "Extract and inspect PyInstaller executables."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Diversion" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "xdis==6.3.0",
+    "pycryptodome==3.23.0"
+]
+
+[project.scripts]
+sparz = "sparz:main"
+
+[tool.setuptools]
+py-modules = ["sparz"]
+packages = ["backend", "backend.versions"]
+
+[tool.setuptools.package-data]
+"backend.versions" = ["*.json"]
