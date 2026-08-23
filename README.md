@@ -52,4 +52,4 @@ By default, files are written to `<exe>_extracted` in the current working direct
 
 ## License
 
-MIT License. Copyright (c) 2026 Diversion / Malware Solitary
+MIT License. Copyright (c) 2026 Diversion
